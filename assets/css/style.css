@@ -236,7 +236,7 @@ span {
     }
 
     .banner img {
-        height: 250px;
+        height: 200px;
         width: 100%;
     }
 
@@ -255,12 +255,7 @@ span {
         border: 1px solid black;
         width: 450px;
         height: 450px;
-        filter: brightness(60%);
-        -webkit-filter: brightness(60%);
-        transition: filter 0.3s ease-in;
-        &:hover {
-            filter: none;
-        }
+        filter: none;
     }
     .catalogo img {
         width: 250px;
