@@ -95,6 +95,7 @@ header {
 
 .descrição {
     margin-left: 100px;
+    margin-top: 30px;
 }
 
 .descrição p {
@@ -148,7 +149,6 @@ footer {
     background-color: #009e2a;
     width: 70%;
     margin-top: 50px;
-    margin-right: 100px;
 }
 
 .características {
@@ -171,14 +171,18 @@ h1 {
 }
 
 @media screen and (max-width: 1270px) {
-    .descrição p {
-
+    .pagina {
+        flex-wrap: wrap;
+        margin-left: 0px;
     }
 
+    .descrição {
+        margin-left: 100px;
+        margin-top: 30px;
+    }
 
     .comprar {
         display: flex;
-        margin-left: 90px;
         justify-content: center;
         align-items: center;
     }
@@ -189,7 +193,7 @@ h1 {
         padding: 10px 15px;
         border-radius: 5px;
         background-color: #009e2a;
-        width: 50%;
+        width: 80%;
         justify-content: center;
         align-items: center;
 
@@ -244,6 +248,11 @@ h1 {
         width: 100%;
     }
 
+    .descrição {
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+
     .pagina {
         display: flex;
         flex-direction: column;
@@ -255,7 +264,6 @@ h1 {
 
     .comprar {
         display: flex;
-        margin-left: 90px;
         justify-content: center;
         align-items: center;
     }
@@ -266,7 +274,7 @@ h1 {
         padding: 10px 15px;
         border-radius: 5px;
         background-color: #009e2a;
-        width: 50%;
+        width: 80%;
         justify-content: center;
         align-items: center;
 

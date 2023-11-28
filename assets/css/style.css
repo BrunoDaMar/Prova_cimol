@@ -96,6 +96,10 @@ header {
     margin: 30px;
     gap: 15px;
 }
+.combo a:link{
+    text-decoration: none;
+    color: black;
+}
 
 .catalogo>div {
     background-color: white;
