@@ -1,0 +1,276 @@
+/*Link para as fontes importadas*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+@font-face {
+    font-family: 'foda';
+    src: url(../fontes/Beyond\ Mars.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #1A1A1A;
+}
+
+header {
+    background-color: #141414;
+    border-bottom: 3px solid #BE2D4E;
+    box-shadow: 0px 3px 10px #464646;
+    /*para das o efeito de sombra*/
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.1rem 3rem;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 5rem;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #BE2D4E;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.titulo h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 30px;
+    font-family: 'foda';
+    font-size: 5rem;
+}
+
+.catalogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px;
+    gap: 15px;
+}
+
+.combo a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.catalogo>div {
+    background-color: white;
+    border-radius: 7px;
+    border: 1px solid black;
+    width: 75%;
+    height: 50%;
+}
+
+.catalogo img {
+    width: 100%;
+    display: flex;
+}
+.catalogo p {
+    color: #009e2a;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+img:hover {
+    filter: none;
+}
+
+figcaption {
+    text-align: center;
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #1A1A1A;
+    text-align: center;
+    border-top: 3px solid #BE2D4E;
+    margin-top: 30px;
+}
+
+.footer {
+    padding: 20px;
+}
+
+.footer p {
+    color: white;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    font-size: 35px;
+}
+
+span {
+    color: #009e2a;
+    font-size: 1.4rem;
+}
+
+.catalogo button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #009e2a;
+    width: 80%;
+    margin-top: 14px;
+    margin-left: 30px;
+}
+
+.ventoinha button,
+.led button,
+.gamepad button {
+    margin-top: 35px;
+}
+
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 0.2rem 1.5rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .logo img {
+        width: 5rem;
+    }
+
+    .login-button {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+
+    .titulo h1 {
+        font-size: 3rem;
+    }
+
+    .catalogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        gap: 15px;
+    }
+
+    .catalogo p {
+        color: #009e2a;
+        font-size: 1.4rem;
+        font-weight: bold;
+
+    }
+
+    img:hover {
+        filter: none;
+    }
+
+    figcaption {
+        text-align: center;
+        margin: 20px;
+        font-size: 1rem;
+    }
+    
+    footer {
+
+    }
+}
